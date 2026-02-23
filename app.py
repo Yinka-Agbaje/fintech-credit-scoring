@@ -17,7 +17,7 @@ def prob_to_credit_score(probability):
 st.set_page_config(page_title="Fintech Risk Engine", layout="wide")
 
 st.title("💳 Fintech Credit Risk Engine")
-st.markdown("Predict loan default risk in real-time using Gradient Boosting.")
+st.markdown("Predict loan default risk using Gradient Boosting.")
 
 # Build the input sidebar
 st.sidebar.header("Applicant Financial Data")
