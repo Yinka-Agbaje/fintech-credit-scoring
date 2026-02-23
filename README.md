@@ -5,17 +5,21 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI_Deployment-red?style=for-the-badge&logo=streamlit&logoColor=white)
 
 ## 📌 Executive Summary
-An end-to-end Machine Learning pipeline designed to predict loan default risk. This project transitions raw financial data into a deployable gradient boosting model, wrapped in an interactive web interface for real-time stakeholder decision-making.
+An end to end Machine Learning pipeline designed to predict loan default risk. This project transitions raw financial data into a deployable gradient boosting model, wrapped in an interactive web interface for stakeholder decision making.
 
 ## 💼 Business Value
 * **Automated Risk Assessment:** Translates complex predictive probabilities into an intuitive 300-850 FICO-style Credit Score.
-* **Feature Engineering:** Leverages custom financial ratios (e.g., Debt-to-Income) alongside external credit bureau data to identify high-risk applicants.
+* **Feature Engineering:** Leverages custom financial ratios (e.g.Debt-to-Income) alongside external credit bureau data to identify high risk applicants.
 * **Interactive Deployment:** Provides a real-time UI for stakeholders to input applicant data and receive instant approval or decline decisions.
 
 ## 🛠️ System Architecture & Tech Stack
 * **Data Processing & Modeling:** `Pandas`, `NumPy`, `Scikit-Learn`, `LightGBM`
 * **Deployment & Serialization:** `Streamlit`, `Joblib`
 * **Version Control:** `Git`, `GitHub`
+
+
+*Live App:* [Fintech Credit Risk Scoring Engine](https://fintech-credit-scoring.streamlit.app/) 
+
 
 ## 🚀 How to Run Locally
 
