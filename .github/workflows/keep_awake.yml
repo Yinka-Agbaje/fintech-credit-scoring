@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Ping Streamlit URL
         run: |
-          curl -sL YOUR_STREAMLIT_APP_URL > /dev/null
+          curl -sL https://fintech-credit-scoring.streamlit.app/ > /dev/null
           echo "Successfully pinged the application to prevent sleep."
