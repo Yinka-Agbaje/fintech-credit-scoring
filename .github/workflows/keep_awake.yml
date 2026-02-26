@@ -1,0 +1,15 @@
+name: Streamlit Heartbeat
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' 
+  workflow_dispatch:
+
+jobs:
+  ping-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Streamlit URL
+        run: |
+          curl -sL YOUR_STREAMLIT_APP_URL > /dev/null
+          echo "Successfully pinged the application to prevent sleep."
