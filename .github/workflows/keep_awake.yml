@@ -9,7 +9,7 @@ jobs:
   ping-app:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Streamlit URL
+     - name: Ping Streamlit URL
         run: |
-          curl -sL https://fintech-credit-scoring.streamlit.app/ > /dev/null
+          curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" -s https://fintech-credit-scoring.streamlit.app/ > /dev/null
           echo "Successfully pinged the application to prevent sleep."
